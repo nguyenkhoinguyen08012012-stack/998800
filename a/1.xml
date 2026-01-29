@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<Content type="html"><![CDATA[
+
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -10,7 +14,7 @@
         
         html,
         body {
-            background-image: url("Build/Build.jpg");
+            background-image: url("https://cdn.jsdelivr.net/gh/netclassroom/998800@main/a/Build/Build.jpg");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -219,17 +223,18 @@
 
 <body>
     <div id="orientation-warning">
-        <img id="orientation-image" src="TemplateData/Orientation/orientation.png" alt="Orientation">
+        <img id="orientation-image" src="https://cdn.jsdelivr.net/gh/netclassroom/998800@main/a/TemplateData/Orientation/orientation.png" alt="Orientation">
         <div class="orientation-text">Please rotate your device to the correct mode.</div>
     </div>
     <div id="gameContainer">
-        <img src="TemplateData/logo.png" class="centered">
+        <img src="https://cdn.jsdelivr.net/gh/netclassroom/998800@main/a/TemplateData/logo.png" class="centered">
         <div class="loadingOut">
             <div class="progress-bar" id="progress-bar"></div>
         </div>
         <canvas id="unity-canvas" data-pixel-art=""></canvas>
-        <script src="Build/382aba212ec04a3c3c9d749465a88f28.loader.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/netclassroom/998800@main/a/Build/382aba212ec04a3c3c9d749465a88f28.loader.js"></script>
         <script>
+        var myGameInstance = null;
             // Multi-language support for orientation messages
             var orientationMessages = {
                 'tr': {
@@ -292,11 +297,11 @@
             
             // ========== DOSYA BİRLEŞTİRME SİSTEMİ ==========
             var DATA_PARTS = [
-                "Build/4f8551342bb90ef1e058d5cc512b22bf.data.unityweb.part1",
-                "Build/4f8551342bb90ef1e058d5cc512b22bf.data.unityweb.part2",
-                "Build/4f8551342bb90ef1e058d5cc512b22bf.data.unityweb.part3",
-                "Build/4f8551342bb90ef1e058d5cc512b22bf.data.unityweb.part4",
-                "Build/4f8551342bb90ef1e058d5cc512b22bf.data.unityweb.part5"
+                "https://cdn.jsdelivr.net/gh/netclassroom/998800@main/a/Build/4f8551342bb90ef1e058d5cc512b22bf.data.unityweb.part1",
+                "https://cdn.jsdelivr.net/gh/netclassroom/998800@main/a/Build/4f8551342bb90ef1e058d5cc512b22bf.data.unityweb.part2",
+                "https://cdn.jsdelivr.net/gh/netclassroom/998800@main/a/Build/4f8551342bb90ef1e058d5cc512b22bf.data.unityweb.part3",
+                "https://cdn.jsdelivr.net/gh/netclassroom/998800@main/a/Build/4f8551342bb90ef1e058d5cc512b22bf.data.unityweb.part4",
+                "https://cdn.jsdelivr.net/gh/netclassroom/998800@main/a/Build/4f8551342bb90ef1e058d5cc512b22bf.data.unityweb.part5"
             ];
 
             async function loadAndMergeDataParts(progressCallback) {
@@ -367,8 +372,8 @@
 
             // Unity config
             var config = {
-                frameworkUrl: "Build/e9e41da0844c15001f802661ca26d7b8.framework.js.unityweb",
-                codeUrl: "Build/d9575d9ad4679ccdf19df2eb1dbaa36b.wasm.unityweb",
+                frameworkUrl: "https://cdn.jsdelivr.net/gh/netclassroom/998800@main/a/Build/e9e41da0844c15001f802661ca26d7b8.framework.js.unityweb",
+                codeUrl: "https://cdn.jsdelivr.net/gh/netclassroom/998800@main/a/Build/d9575d9ad4679ccdf19df2eb1dbaa36b.wasm.unityweb",
                 streamingAssetsUrl: "StreamingAssets",
                 companyName: "GameVGames",
                 productName: "Obby Rainbow Tower",
@@ -562,8 +567,12 @@
         </script>
 
         <!--RHM API-->
-        <script type="text/javascript" src="js/rhmApi.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/netclassroom/998800@main/a/js/api.js"></script>
     </div>
 </body>
 
 </html>
+
+
+]]></Content>
+</Module>
