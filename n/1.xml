@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/netclassroom/998800@main/n/TemplateData/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nguyenkhoinguyen08012012-stack/998800@main/n/TemplateData/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/netclassroom/998800@main/n/TemplateData/style.css">
 
   </head>
   <body>
@@ -88,7 +88,7 @@
           { name: 'web.data.gz', parts: 4 },
           { name: 'web.wasm.gz', parts: 3 }
         ],
-        basePath: 'https://cdn.jsdelivr.net/gh/nguyenkhoinguyen08012012-stack/998800@main/n/Build'
+        basePath: 'https://cdn.jsdelivr.net/gh/netclassroom/998800@main/n/Build/'
       };
 
       const mergedFiles = {};
@@ -212,13 +212,13 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "https://cdn.jsdelivr.net/gh/nguyenkhoinguyen08012012-stack/998800@main/n/Build";
+      var buildUrl = "https://cdn.jsdelivr.net/gh/netclassroom/998800@main/n/Build";
       var loaderUrl = buildUrl + "/web.loader.js";
       var config = {
         dataUrl: buildUrl + "/web.data.gz",
         frameworkUrl: buildUrl + "/web.framework.js",
         codeUrl: buildUrl + "/web.wasm.gz",
-        streamingAssetsUrl: "https://cdn.jsdelivr.net/gh/nguyenkhoinguyen08012012-stack/998800@main/n/StreamingAssets",
+        streamingAssetsUrl: "https://cdn.jsdelivr.net/gh/netclassroom/998800@main/n/StreamingAssets",
         companyName: "Wave Infinite",
         productName: "Taco Stand",
         productVersion: "0.1",
